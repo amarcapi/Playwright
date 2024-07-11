@@ -1,0 +1,8 @@
+config:
+  target: https://prep.neweracap.co.uk
+  engines:
+    playwright: {}
+  processor: "./tests/Artillery/Login.js"
+scenarios:
+  - engine: playwright
+    testFunction: "artilleryScript"

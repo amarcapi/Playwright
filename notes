@@ -1,0 +1,50 @@
+how to write css:
+if ID is present 
+css > tagname#id (or) #id
+
+if class attribute is present
+css > tagname.class (or) .class
+
+write css based on any attribute 
+css > [attribute='value']
+
+write css with traversing from parent to child
+css > parenttagname >> childtagname
+
+.classname a
+    const products = page.locator("//div[@class='plp__sc-1d0s19m-0 plp__sc-1d0s19m-3 joKZoe eLdbNt col-xs-6 col-sm-4 col-md-3']");
+"//div[@class='plp__sc-18aj3y5-2 jqYXzV']"
+
+npx playwright test - run all tests under test folder
+
+test.only - run this specfic test
+
+npx playwright test --headed. tests are run in headless mode by default
+
+can create multiple config files and choose which one to run. this isnt ideal
+in default config file, you can parametize, using projects. uses index
+npx test ... --config playwrightconfig.js --project=chromium
+if you dont speciy which poject, it will run them all
+
+mobile viewports, specify devices you want to run the test on
+handling ssl certification
+
+playwright uses mocha framework
+but we can also use cucumber
+npm install @cucumber/cucumber
+install extension cucumber gherkin
+to run 
+
+allure reporting
+npm i -D @playwright/test allure-playwright
+npx playwright test testOne.spec.js --reporter=line,allure-playwright
+
+npm install -g allure-commandline
+allue open ./allure-report
+
+package.json custom scripts
+command: npm run regression
+
+env variables, install dotenv. saves dependancy in package.json file
+create .env file
+run npm install express --save

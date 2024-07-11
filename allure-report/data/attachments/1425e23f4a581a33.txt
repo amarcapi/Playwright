@@ -1,0 +1,18 @@
+[
+  'ADD TO BAG9FIFTY123A Chicago Bulls 2017 On-Court Original Fit 9FIFTY SnapbackBlack£38.00 - £1500.00',
+  'EXCLUSIVEADD TO BAGFedoraChicago White Sox Authentic On Field Game Black 59FIFTY CapGold£808.00',
+  'EXCLUSIVEADD TO BAGBucketNew York Yankees MLB Leather Black Bucket HatBlack£156.60£174.00',
+  'EXTENDED SIZESADD TO BAG59FIFTY Retro CrownNew Era x Norse Projects Dark Green 59FIFTY Retro Crown Fitted CapGreen£96.00',
+  'LOW STOCKADD TO BAGBucketBrooklyn Dodgers Cooperstown Navy Bucket HatBlue£63.00',
+  'ADD TO BAGBucketBrooklyn Dodgers Cooperstown Green Bucket HatGreen£63.00',
+  'EXCLUSIVEADD TO BAG59FIFTYNew Era Pin Script Badge Dark Green 59FIFTY Fitted CapGreen£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYNew Era Pin Script Badge Light Blue 59FIFTY Fitted CapBlue£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYFear Of God Oakland Athletics Green 59FIFTY Fitted CapGreen£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYFear Of God California Angels Blue 59FIFTY Fitted CapBlue£57.00',
+  'SUSTAINABLEADD TO BAGBucketLA Dodgers Cooperstown Multi Patch Blue Bucket HatBlue£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYNew Era 59FIFTY Day Beige 59FIFTY Fitted CapBrown£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYFear Of God Detroit Tigers Blue 59FIFTY Fitted CapBlue£57.00',
+  'EXCLUSIVEADD TO BAG59FIFTYFear Of God San Diego Padres Brown 59FIFTY Fitted CapBrown£57.00',
+  'LOW STOCKADD TO BAG59FIFTYMLB Multi Team Logo Black 59FIFTY Fitted CapBlack£56.00£70.00'
+]
+15

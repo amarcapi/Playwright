@@ -1,0 +1,33 @@
+import { test, expect } from '@playwright/test';
+
+test('Checkout with Paypal:Paid', async ({ page }) => {
+  await page.goto('https://prep.neweracap.co.uk/en-gb/');
+  await page.getByLabel('Accept All').click();
+  await page.getByLabel('Close dialog 1').click();
+  await page.getByLabel('HEADWEAR', { exact: true }).click();
+  await page.getByRole('link', { name: 'LA Dodgers MLB World Series Blue 59FIFTY Fitted Downflap Cap LA Dodgers MLB World Series Blue 59FIFTY Fitted Downflap Cap 59FIFTY LA Dodgers MLB World Series Blue 59FIFTY Fitted Downflap Cap Blue £63.00' }).click();
+  await page.getByText('7', { exact: true }).click();
+  await page.getByLabel('Add to bag').click();
+  await page.getByRole('link', { name: 'Secure Checkout' }).click();
+  await page.getByRole('link', { name: 'Guest Checkout' }).click();
+  await page.locator('#guestEmail').click();
+  await page.locator('#guestEmail').fill('amar.ahmed@yopmail.com');
+  await page.locator('[id="newDeliveryAddress\\.firstName"]').click();
+  await page.locator('[id="newDeliveryAddress\\.firstName"]').fill('aha');
+  await page.locator('[id="newDeliveryAddress\\.lastName"]').click();
+  await page.locator('[id="newDeliveryAddress\\.lastName"]').fill('aha');
+  await page.locator('div').filter({ hasText: /^Search by postcode, street or address$/ }).nth(1).click();
+  await page.locator('#react-select-3-input').fill('mk44 3jz');
+  await page.getByText('Stannard Way Priory Business Park Bedford MK44 3JZ, - 7 Addresses', { exact: true }).click();
+  await page.locator('#react-select-3-option-1').click();
+  await page.getByRole('button', { name: 'Proceed to payment' }).click();
+  await page.getByText('£63.00').nth(1).click();
+  await page.getByText('Free', { exact: true }).click();
+  await page.locator('#paymentMethod-paypal div').first().click();
+  await page.getByRole('button', { name: 'Check out with' }).click();
+  await page.getByLabel('Paid').check();
+  await page.getByRole('button', { name: 'Continue ›' }).click();
+  await page.getByRole('heading', { name: 'Got it. Thanks for your order.' }).click();
+  await page.getByText('£63.00').nth(2).click();
+  await page.getByText('Free', { exact: true }).click();
+});
